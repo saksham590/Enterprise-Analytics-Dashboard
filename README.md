@@ -1,53 +1,68 @@
-# Enterprise-Analytics-Dashboard
-A modern and fully responsive Business Analytics Dashboard built using React, Material UI, Redux Toolkit, and Nivo Charts. This project provides an intuitive admin panel experience with advanced data visualization, analytics tracking, customer insights, transaction monitoring, and geographical statistics — all packed into a clean and scalable architecture.
+# BUSINESS ANALYTICS DASHBOARD APP
 
-The dashboard is designed to help businesses monitor key performance metrics, manage operational data, and make data-driven decisions through interactive charts, tables, and real-time analytics components.
+## Features
 
-✨ Key Features
-📊 Interactive analytics dashboard with modern UI
-🌍 Geography & regional statistics visualization
-📈 Advanced charts and graphs using Nivo
-🛒 Product and transaction management
-👥 Customer insights and performance tracking
-🌙 Light/Dark mode support with custom theming
-🔐 Authentication flow with protected routes
-⚡ Fast and optimized performance powered by Vite
-📱 Fully responsive design for all devices
-🧩 Modular and scalable folder structure
-🛠️ Tech Stack
-React.js
-Material UI (MUI)
-Redux Toolkit & RTK Query
-React Router DOM
-Nivo Charts
-Vite
-JavaScript (ES6+)
-📌 Purpose of the Project
+⚡️ React\
+⚡️ Redux Toolkit\
+⚡️ RTK Query\
+⚡️ MUI\
+⚡️ Nivo Charts\
+⚡ Vite
 
-This project demonstrates how modern frontend technologies can be combined to create a professional-grade admin dashboard for business intelligence and analytics. It can be used as:
+## Description
 
-An admin panel starter template
-A business monitoring system
-A data visualization platform
-A portfolio-ready frontend project
-🚀 Performance & Architecture
+This dashboard app is built with React, Express, MongoDB, and Node is a web-based application that allows users to monitor and manage various aspects of their business or organization. It provides a user-friendly interface that enables users to view and analyze real-time data, create and track tasks and projects, and access key information and resources from a single, central location. The app is built using a modern stack of technologies that ensures fast and a really efficient performance.
 
-The application follows a clean and maintainable architecture with reusable components, centralized state management, and optimized rendering for a smooth user experience. The use of Vite ensures lightning-fast development and production builds.
+## Running the app
 
-📷 Dashboard Modules
-Overview Dashboard
-Customer Analytics
-Product Management
-Transactions Monitoring
-Geography Analytics
-Daily & Monthly Reports
-Data Tables & Statistics
-🎯 Ideal For
-Frontend developers
-React & Redux learners
-Admin dashboard projects
-Data visualization applications
-Portfolio showcasing
-🔥 Highlights
+### .env
 
-This dashboard combines elegant UI/UX design with powerful analytics functionality, making it suitable for real-world business management systems and enterprise-level frontend applications.
+Create `.env` file based on `.env.template`
+
+### Install deps and run the app
+
+```bash
+# install pnpm
+npm i -g pnpm
+
+```
+
+```bash
+# install dependencies
+npm i
+
+# run the backend
+
+# run in dev mode on port 5173
+npm run dev
+
+# run tests
+npm i run test
+```
+
+## View demo
+
+To see the real-time behavior you can log in with:
+
+- User: `swelbeck12@ycombinator.com` and password `RSjzmAjnq`
+
+<!-- [Demo](https://ecomvision-reacmuijs-alx.netlify.app/auth/login) -->
+
+<a href="https://ecomvision-reacmuijs-alx.netlify.app/auth/login" target="_blank">Demo</a>
+
+## Backend
+
+<!-- [GitHub](https://github.com/AlexMartin998/admin-dashboard-mui-api) -->
+
+<a href="https://github.com/AlexMartin998/admin-dashboard-mui-api" target="_blank">GitHub</a>
+
+### Screenshots
+
+![Admi](.screenshots/dashboard.png)
+
+
+
+| | | 
+|:-------------------------:|:-------------------------:|
+| <img width="1604" src=".screenshots/daily-picker.png">    |  <img width="1604" src=".screenshots/geography.png"> 
+| <img width="1604" src=".screenshots/transactions.png">    |  <img width="1604" src=".screenshots/products.png"> 
